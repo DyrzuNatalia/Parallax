@@ -1440,6 +1440,15 @@ body {
       height: 100%;
       background-size: cover; } }
 
+.ball {
+  z-index: 3;
+  position: absolute;
+  top: 376px;
+  right: 20%;
+  width: 100%;
+  height: 741px;
+  background: url("../img/ball-1.png") no-repeat top center; }
+
 .fields-layer {
   z-index: 2;
   position: absolute;
@@ -1476,15 +1485,18 @@ body {
     .cloud-layer {
       display: none; } }
 
+/*
 .ball {
-  z-index: 4;
-  position: absolute;
-  top: 376px;
-  left: 83%; }
-  @media (max-width: 767px) {
-    .ball {
-      display: none; } }
+    z-index : 4;
+    position: absolute;
+    top     : 376px;
+    left    : 83%;
 
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+*/
 .stone {
   z-index: 4;
   position: absolute;

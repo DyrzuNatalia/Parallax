@@ -1,0 +1,32 @@
+.mobile-menu-list {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 290px;
+  top: -160px;
+  left: auto;
+  right: 0;
+  color: #fff;
+  background-color: #324f81;
+  transition: transform 0.4s; }
+
+.mobile-menu-link {
+  padding-left: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal; }
+
+.mobile-menu-link:hover {
+  border-left: 5px solid #db2228;
+  font-weight: bold; }
+
+.mobile-submenu {
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  position: relative;
+  background-color: transparent;
+  transform: none;
+  transition: none; }
+
+/*# sourceMappingURL=menu.css.map */

@@ -47,12 +47,14 @@ let parallaxIt = () => {
         pos = (scrollTop - bgOffset) / speed;
         coords = pos + 'px ' + '50%';
         $backgroundObj.css({ backgroundPosition: "calc(50% " + "- " + pos + "px)" });
-      } else {
+      } else{
         pos = -((scrollTop - bgOffset) / speed);
         coords = '50% ' + pos + 'px';
         $backgroundObj.css({ backgroundPosition: coords });
       }
+
     });
+
   });
 
   $window.trigger('scroll');
