@@ -1,0 +1,118 @@
+.last-news {
+    padding-bottom: 80px;
+}
+
+.last-news__header {
+    z-index: 5;
+}
+
+.news-wrap {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+}
+
+.news-item {
+    width           : 363px;
+    height          : 351px;
+    background-color: #fff;
+    border-right    : 1px solid #324f81;
+    border-bottom   : 1px solid #324f81;
+    z-index         : 5;
+
+    @media (max-width: 1200px) {
+        width           : 32%;
+    }
+
+    @media (max-width: 992px) {
+        width           : 32%;
+        margin: 15px;
+    }
+
+    @media (max-width: 768px) {
+        width           : 50%;
+    }
+
+    @media (max-width: 480px) {
+        width           : 100%;
+        
+    }
+
+}
+
+.news-item:hover {
+    border-right : 1px solid #db2228;
+    border-bottom: 1px solid #db2228;
+}
+
+.news-img{
+    width: 100%;
+}
+
+
+.news-img-link {
+    overflow       : hidden;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    height         : 203px;
+    margin-bottom  : 20px;
+
+    @media (max-width: 1200px) {
+        height: 165px;
+    }
+
+    @media (max-width: 480px) {
+       height: auto;
+        
+    }
+
+   
+}
+
+.news-date {
+    position        : absolute;
+    bottom          : 0;
+    text-align      : center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width           : 115px;
+    padding         : 5px;
+    font-size       : 16px;
+    color           : #fff;
+    z-index         : 1;
+
+}
+
+.news-item-title {
+    display      : block;
+    width        : 100%;
+    margin-bottom: 18px;
+    font-size    : 25px;
+    color        : #db2228;
+    text-align   : center;
+
+    @media (max-width: 1200px) {
+       font-size    : 18px;
+    }
+
+    @media (max-width: 992px) {
+        font-size    : 18px; 
+    }
+
+}
+
+.news-item-title:hover {
+    text-decoration: underline;
+}
+
+.news-text {
+    padding    : 0 45px;
+    color      : #324f81;
+    font-size  : 16px;
+    line-height: 22px;
+    text-align : center;
+}
